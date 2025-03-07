@@ -4,16 +4,16 @@ const { EmbedBuilder } = require('discord.js');
 const { joinVoiceChannel } = require('@discordjs/voice');
 
 // Sistemleri içe aktar
-const TicketSystem = require('./src/systems/ticket/ticketSystem');
-const StorySystem = require('./src/systems/story/storySystem');
-const AdminCallSystem = require('./src/systems/admin/adminCallSystem');
-const AdminXPSystem = require('./src/systems/xp/adminXPSystem');
-const StatusSystem = require('./src/systems/status/statusSystem');
-const KayitSystem = require('./src/systems/kayit/kayitSystem');
-const StoryFormSystem = require('./src/systems/story/storyFormSystem');
+const TicketSystem = require('ticketSystem');
+const StorySystem = require('storySystem');
+const AdminCallSystem = require('adminCallSystem');
+const AdminXPSystem = require('adminXPSystem');
+const StatusSystem = require('statusSystem');
+const KayitSystem = require('kayitSystem');
+const StoryFormSystem = require('storyFormSystem');
 
 // Yardımcı fonksiyonları içe aktar
-const { hasPermission } = require('./src/utils/permissions');
+const { hasPermission } = require('permissions');
 
 // Çevre değişkenlerini yükle
 config();
