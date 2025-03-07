@@ -1,0 +1,25 @@
+{
+  "name": "discord-gca",
+  "version": "1.0.0",
+  "description": "GCA Roleplay Discord Bot",
+  "main": "commandBot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node commandBot.js",
+    "dev": "nodemon commandBot.js"
+  },
+  "engines": {
+    "node": ">=16.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
